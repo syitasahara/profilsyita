@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFIL SYITA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+marquee {
+    font-size: 30px;
+    color: brown;
+}
+
+header {
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(231, 143, 143);
+}
+
+header nav ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px 20px;
+}
+
+header nav li a {
+    list-style-type: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+header nav li:hover a {
+    background-color: burlywood;
+    color: black;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#content {
+    flex: 4;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+aside {
+    flex: 2;
+}
+
+.featured-image {
+    width: 200px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 90%;
+    max-width: 400px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    background-color: #425c77;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: rgb(231, 143, 143);
+    text-align: center;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <!-- Header -->
+     <header>
+        <nav>
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#pengalaman">Pengalaman</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+                <li><a href="#formulir">Profil</a></li>
+            </ul>
+        </nav>
+     </header>
+     <br>
+
+     <marquee>
+        Selamat Datang di Profil Syita
+     </marquee>
+     <br>
+
+     <main>
+        <div id="content">
+            <section class="card">
+                <img src="FOTO DIRI .jpg" alt="foto profil" width="200px" class="featured-image">
+                <h3>MASYITA IKA SAHARA</h3>
+                <P style="color: brown;">Lulusan MIPA SMAN 10 Surabaya pada tahun 2023, dengan nilai 89,90. Saya adalah mahasiswa 
+                    aktif S1 Teknik Informatika Universitas Negeri Surabaya. Saya merupakan orang yang mudah 
+                    tertarik mempelajari hal baru, memiliki sifat pekerja keras, disiplin dan rajin, serta mampu bekerja 
+                    dalam tim. Saya juga aktif dalam organisasi dan beberapa kepanitiaan. Saya memiliki ketertarikan 
+                    pada bidang Administrasi terutama pada Administrasi Kesekretariatan dan bidang sosial.</P>
+            </section>
+
+            <section class="card">
+                <h3>Daftar Project</h3>
+                <table border="1" cellpadding="10" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Nama Project</th>
+                            <th>Deskripsi</th>
+                            <th>Bulan/Tahun</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Aplikasi Sistem Mesin ATM</td>
+                            <td>Membuat program aplikasi sistem mesin ATM dengan menggunakan bahasa pemrograman C++</td>
+                            <td>Desember 2023</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Aplikasi Sistem Pemesanan Online</td>
+                            <td>Membuat program aplikasi sistem pemesanan driver online dengan menggunakan bahasa pemrograman C++</td>
+                            <td>April - Mei 2024</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Teori Graph Penerapan Lampu Lalu Lintas</td>
+                            <td>Membuat project penerapan lampu lalu lintas dengan menggunakan teori graph</td>
+                            <td>April - Mei 2024</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Desain Antarmuka UI/UX Food Track</td>
+                            <td>Membuat desain antarmuka UI/UX Web Food Tracking</td>
+                            <td>Oktober 2024</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Database Sistem Pengelolaan Restoran</td>
+                            <td>Mmebuat Basis Data Sistem Pengelolaan Restoran dengan menggunakan tools MySQL, Mongodb, dan menggunakan bahasa pemrograman python</td>
+                            <td>September - Desember 2024</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Sistem Aplikasi Perbankan</td>
+                            <td>Mmebuat Aplikasi Sistem Perbankan dengan menggunakan bahasa pemrograman python</td>
+                            <td>Desember 2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="card">
+                <h3>PENGALAMAN ORGANISASI DAN KEPANITIAAN</h3>
+                <p><b>EKSTRAKULIKULER SIE KEROHANIAN ISLAM SMAN 10 SURABAYA – SURABAYA, INDONESIA</b></p>
+                <p>Sekretaris Umum (Agustus 2022 - Januari 2023)</p>
+                <ul>
+                    <li>Bertugas dalam kegiatan korespondensi baik dalam perizinan kegiatan, peminjaman alat,  dan tindakan surat menyurat lainnya</li>
+                    <li>Mengkoordinasi tugas sekretaris lain dan memastikan fungsi administrasi berjalan lancar</li>
+                    <li>Menyusun jadwal dan membuat laporan kehadiran saat rutinitas berlangsung</li>
+                    <li>Menjadi penghubung utama antara ketua umum dan anggota organisasi serta pihak eksternal.</li>
+                </ul>
+                <br>
+
+                <P><B>HIMPUNAN MAHASISWA PRODI TEKNIK INFORMATIKA UNIVERSITAS NEGERI SURABAYA – SURABAYA, INDONESIA</B></P>
+                <P>Wakil Sekretaris (Maret 2024 - Desember 2024) </P>
+                <ul>
+                    <li>Mempelajari alur asistensi pada sebuah administrasi lingkup prodi hingga fakultas</li>
+                    <li>Bertugas dalam kegiatan korespondensi baik dalam perizinan kegiatan, peminjaman alat, dan tindakan surat menyurat lainnya serta proposal kegiatan </li>
+                    <li>Mengatur, mengelola, dan menyimpan dokumen dan catatan penting dengan baik</li>
+                    <li>Mengatur jadwal pertemuan, rapat, dan acara</li>
+                    <li>Bertugas membuat notulensi saat rapat berlangsung.</li>
+                </ul>
+                <br>
+            
+                <p><b>HIMPUNAN MAHASISWA PRODI TEKNIK INFORMATIKA UNIVERSITAS NEGERI SURABAYA – SURABAYA, INDONESIA </b></p>
+                <p>Sekretaris Umum (Februari 2025 - Sekarang)</p>
+                <ul>
+                    <li>Bertanggung jawab keseluruhan untuk tugas administrasi dan operasional</li>
+                    <li>Mengkoordinasi tugas wakil sekretaris dan memastikan fungsi administrasi berjalan lancar</li>
+                    <li>Menjadi penghubung utama antara ketua dan anggota organisasi serta pihak eksternal</li>
+                    <li>Berperan dalam pengambilan keputusan yang berkaitan dengan administrasi organisasi</li>
+                </ul>
+                <br>
+            </section>
+
+            <section class="card">
+                <h3>Kontak Saya</h3>
+                <p>Email: <a href="mailto:masyitaika9@gmail.com">masyitaika9@gmail.com</a></p>
+                <p>Whatsapp: <a href="http://wa.me/6281585616615">Whatsapp Saya</a></p>
+            </section>
+        </div>
+
+        <aside>
+            <section class="card">
+                <h3>Formulir Kontak</h3>
+                <form action="" method="post">
+                    <label for="nama">Nama: </label><br>
+                    <input type="text" id="nama" name="nama" required><br><br>
+                    <label for="nama">Email: </label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="nama">Pesan: </label><br>
+                    <textarea name="pesan" id="pesan" rows="4" required></textarea><br><br>
+
+                    <button type="submit">Kirim</button>
+                </form>
+            </section>
+        </aside>
+     </main>
+
+     <footer>
+        <p>Curriculum Vitae by Syita &#169; 2025</p>
+     </footer>
+
+</body>
+</html>

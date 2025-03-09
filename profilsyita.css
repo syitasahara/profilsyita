@@ -1,0 +1,98 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+marquee {
+    font-size: 30px;
+    color: brown;
+}
+
+header {
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(231, 143, 143);
+}
+
+header nav ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px 20px;
+}
+
+header nav li a {
+    list-style-type: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+header nav li:hover a {
+    background-color: burlywood;
+    color: black;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#content {
+    flex: 4;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+aside {
+    flex: 2;
+}
+
+.featured-image {
+    width: 200px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 90%;
+    max-width: 400px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    background-color: #425c77;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: rgb(231, 143, 143);
+    text-align: center;
+    font-weight: bold;
+}
