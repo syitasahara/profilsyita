@@ -253,4 +253,19 @@ footer {
      </footer>
 
 </body>
+
+<script>
+    document.querySelector("form").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        let nama = document.getElementById("nama").value;
+        console.log(nama);
+        let email = document.getElementById("email").value;
+        console.log(email);
+        let pesan = document.getElementById("pesan").value;
+        console.log(pesan);
+
+        alert(`Terima Kasih, ${nama}! pesan anda telah dikirim`)
+    });
+</script>
 </html>
