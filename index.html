@@ -5,106 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROFIL SYITA</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-    font-family: 'Quicksand', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-marquee {
-    font-size: 30px;
-    color: brown;
-}
-
-header {
-    padding: 5px;
-    position: sticky;
-    top: 0;
-    background-color: rgb(231, 143, 143);
-}
-
-header nav ul {
-    padding-left: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px 20px;
-}
-
-header nav li a {
-    list-style-type: none;
-    padding: 0.5rem 1.5rem;
-    border-radius: 999px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-}
-
-header nav li:hover a {
-    background-color: burlywood;
-    color: black;
-}
-
-main {
-    padding: 20px;
-    display: flex;
-    gap: 1.5rem;
-}
-
-#content {
-    flex: 4;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 1rem 2rem;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0);
-    border-radius: 5px;
-    padding: 20px;
-}
-
-aside {
-    flex: 2;
-}
-
-.featured-image {
-    width: 200px;
-    max-height: 300px;
-    object-fit: cover;
-    object-position: center;
-}
-
-input[type="text"], input[type="email"], textarea {
-    width: 90%;
-    max-width: 400px;
-    padding: 0.75rem;
-    margin-bottom: 1rem;
-    font-size: 1rem;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    outline: none;
-}
-
-button {
-    background-color: #425c77;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 8px;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-footer {
-    padding: 20px;
-    color: white;
-    background-color: rgb(231, 143, 143);
-    text-align: center;
-    font-weight: bold;
-}
-    </style>
+    <link rel="stylesheet" href="profilsyita.css">
 </head>
 <body>
     <!-- Header -->
@@ -115,7 +16,9 @@ footer {
                 <li><a href="#project">Project</a></li>
                 <li><a href="#pengalaman">Pengalaman</a></li>
                 <li><a href="#kontak">Kontak</a></li>
-                <li><a href="#formulir">Profil</a></li>
+                <li><a href="#pencapaian">Pencapaian</a></li>
+                <li><a href="#kemampuan">Kemampuan</a></li>
+                <li><a href="#formulir">Formulir</a></li>
             </ul>
         </nav>
      </header>
@@ -129,9 +32,10 @@ footer {
      <main>
         <div id="content">
             <section class="card">
+                <h3 id="profil" align="center">PROFIL SYITA</h3>
                 <img src="FOTO DIRI .jpg" alt="foto profil" width="200px" class="featured-image">
                 <h3>MASYITA IKA SAHARA</h3>
-                <P style="color: brown;">Lulusan MIPA SMAN 10 Surabaya pada tahun 2023, dengan nilai 89,90. Saya adalah mahasiswa 
+                <P style="color: rgb(0, 0, 0);">Lulusan MIPA SMAN 10 Surabaya pada tahun 2023, dengan nilai 89,90. Saya adalah mahasiswa 
                     aktif S1 Teknik Informatika Universitas Negeri Surabaya. Saya merupakan orang yang mudah 
                     tertarik mempelajari hal baru, memiliki sifat pekerja keras, disiplin dan rajin, serta mampu bekerja 
                     dalam tim. Saya juga aktif dalam organisasi dan beberapa kepanitiaan. Saya memiliki ketertarikan 
@@ -139,7 +43,7 @@ footer {
             </section>
 
             <section class="card">
-                <h3>Daftar Project</h3>
+                <h3 id="project" align="center">DAFTAR PROJECT</h3>
                 <table border="1" cellpadding="10" cellspacing="0">
                     <thead>
                         <tr>
@@ -191,7 +95,7 @@ footer {
             </section>
 
             <section class="card">
-                <h3>PENGALAMAN ORGANISASI DAN KEPANITIAAN</h3>
+                <h3 id="pengalaman" align="center">PENGALAMAN ORGANISASI DAN KEPANITIAAN</h3>
                 <p><b>EKSTRAKULIKULER SIE KEROHANIAN ISLAM SMAN 10 SURABAYA – SURABAYA, INDONESIA</b></p>
                 <p>Sekretaris Umum (Agustus 2022 - Januari 2023)</p>
                 <ul>
@@ -225,15 +129,78 @@ footer {
             </section>
 
             <section class="card">
-                <h3>Kontak Saya</h3>
-                <p>Email: <a href="mailto:masyitaika9@gmail.com">masyitaika9@gmail.com</a></p>
+                <h3 id="kontak" align="center">KONTAK SAYA</h3>
+                <p>Email: <a href="mailto:masyitaika9@gmail.com">Email Saya</a></p>
                 <p>Whatsapp: <a href="http://wa.me/6281585616615">Whatsapp Saya</a></p>
+                <p>Instragram: <a href="https://www.instagram.com/syitashr?igsh=NWRmbjB1M3g1ajRj">Instagram Saya</a></p>
             </section>
         </div>
 
         <aside>
             <section class="card">
-                <h3>Formulir Kontak</h3>
+                <h3 id="pencapaian" align="center">TRAINING AND ACHIEVEMENT</h3>
+                <table border="1" cellpadding="10" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Jenis</th>
+                            <th>Oleh</th>
+                            <th>Tahun</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Tadabbur Alam</td>
+                            <td>Ekstrakulikuler SKI SMAN 10 Surabaya</td>
+                            <td>2022</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Latihan Keterampilan Manajemen Mahasiswa – Tingkat Dasar</td>
+                            <td>Himpunan Mahasiswa Prodi Hukum Unesa</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Training of Trainer</td>
+                            <td>Himpunan Mahasiswa Prodi Teknik Informatika Universitas Negeri Surabaya</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Gold Medal in National Science Project Competition</td>
+                            <td>Indonesian Young Scientist Association</td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Semi Finalis Business Plan Competition</td>
+                            <td>Himpunan Mahasiswa Prodi S1 Teknik Informatika Unesa</td>
+                            <td>2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <br>
+
+            <section class="card">
+                <h3 id="kemampuan" align="center">KEMAMPUAN</h3>
+                <ul>
+                    <li>Microsoft Word, PowePoint, Google Docs, Spreadsheet, Canva</li>
+                    <li>Administration</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>Figma</li>
+                    <li>Teamwork and Communication</li>
+                    <li>Critical Thinking</li>
+                    <li>Mengatur jadwal dan membuat perencanaan</li>
+                </ul>
+            </section>
+            <br>
+
+            <section class="card">
+                <h3 id="formulir" align="center">FORMULIR KONTAK</h3>
                 <form action="" method="post">
                     <label for="nama">Nama: </label><br>
                     <input type="text" id="nama" name="nama" required><br><br>
@@ -251,7 +218,6 @@ footer {
      <footer>
         <p>Curriculum Vitae by Syita &#169; 2025</p>
      </footer>
-
 </body>
 
 <script>
